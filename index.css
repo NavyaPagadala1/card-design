@@ -1,0 +1,19 @@
+li{
+    background-color: aqua;
+}
+img{
+    border: solid black;
+    border-radius: 0%;
+    height: 100px;
+    width: 100px;  
+    background-color:orange;
+}   
+    
+
+#heading{
+
+    color:orangered;
+    border:2px solid black;
+    border-radius:10px ;
+    text-align: center;
+}
