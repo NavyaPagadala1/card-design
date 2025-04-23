@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions based card design</title>
+    <style>
+        .parent{
+            display:flex;
+            flex-direction: row-reverse;
+            background-color: burlywood;
+             margin: 20px; 
+            border-radius: 30px;
+            width: 50%;
+        }
+        .productcard{
+            height: 250px;
+            width: 200px;
+            position:relative;
+            bottom: 100px;
+            right: 50px;
+            
+            
+            
+        } 
+
+        .content>p{
+         margin:30px ;
+         align-self: self-start; 
+         font-size: 18px;
+        line-height: 30px;
+        font-size: 20px;
+        padding-left:2  ;
+        padding-right: 1;
+    } 
+        
+        .heading{
+    font-size: 30px;
+    padding: 20px;
+}
+
+        
+
+    </style>
+</head>
+<body>
+    <div  class="parent">
+    <div class="img-header">
+        <img  class="productcard" src="./elbert img.svg" alt="elbert">
+        </div>
+    <div class="content">
+        <h3 class="heading">
+            CRM Platform: Redefining Customer Relationships</h3>
+        <p>
+            Our CRM platform is more than just a tool; it's a strategy for success.
+             Designed to simplify and enhance how you connect with your clients, 
+             it centralizes your customer data, streamlines communication, 
+             and helps you make informed decisions. Gain insights, nurture relationships,
+              and drive business growth with features like real-time analytics, 
+              automated workflows, and seamless integration across your systems.
+             Elevate customer experiences and turn interactions into long-lasting partnerships.
+        </p>
+    </div>
+    </div>
+    
+</body>
+</html>
